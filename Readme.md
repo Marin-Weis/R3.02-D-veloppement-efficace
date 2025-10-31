@@ -1,4 +1,4 @@
-# R3.02 – Développement efficace  
+# 📘 R3.02 – Développement efficace  
 ### Travaux Pratiques (TP1 à TP4) – Année 2025/2026  
 **I.U.T. de Vannes – Département Informatique – BUT2**
 
@@ -7,9 +7,7 @@ L’objectif est de mettre en pratique les notions vues en cours à travers l’
 
 ---
 
-
-
-## Contenu du dépôt
+## 🧩 Contenu du dépôt
 
 ### **TP1 – Liste chaînée**
 Implémentation d’une **liste doublement chaînée avec sentinelle**.  
@@ -43,7 +41,7 @@ Tests unitaires avec `TestArbreBinaire.java`.
 
 ---
 
-## Objectifs pédagogiques
+## 🧠 Objectifs pédagogiques
 - Comprendre et implanter des **structures de données fondamentales**.  
 - Appliquer les notions de **contrat, généricité, encapsulation, classes internes et itérateurs**.  
 - Produire un code **propre, documenté (JavaDoc)**, **testé (JUnit4)** et **compilable sous Java 17**.  
@@ -51,7 +49,7 @@ Tests unitaires avec `TestArbreBinaire.java`.
 
 ---
 
-## Chronologie du cours
+## 📅 Chronologie du cours
 
 | Semaine | Sujet | TP associé | Rendu |
 |:--:|:--|:--|:--|
