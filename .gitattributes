@@ -1,6 +1,0 @@
-# Ignore generated JavaDoc files from language statistics
-*.html linguist-detectable=false
-*.css linguist-detectable=false
-*.js linguist-detectable=false
-docs/** linguist-detectable=false
-javadoc/** linguist-detectable=false
