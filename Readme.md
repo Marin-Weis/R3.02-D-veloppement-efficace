@@ -1,60 +1,60 @@
-# 📘 R3.02 – Développement efficace  
-### Travaux Pratiques (TP1 à TP4) – Année 2025/2026  
-**I.U.T. de Vannes – Département Informatique – BUT2**
+# 📘 R3.02 – Efficient Development  
+### Practical Work (TP1 to TP4) – Academic Year 2025/2026  
+**I.U.T. of Vannes – Computer Science Department – BUT2**
 
-Ce dépôt regroupe l’ensemble des **TPs du module R3.02 – Structures de données**, encadré par **J.-F. Kamp**.  
-L’objectif est de mettre en pratique les notions vues en cours à travers l’implémentation en **Java 17** de différentes structures de données fondamentales (listes, tables de hachage, collections, arbres binaires) tout en respectant les **contrats de conception**, la **généricité**, et les **tests unitaires JUnit4**.
-
----
-
-## 🧩 Contenu du dépôt
-
-### **TP1 – Liste chaînée**
-Implémentation d’une **liste doublement chaînée avec sentinelle**.  
-Création d’une interface `Liste.java` et d’une classe `ListeChainee.java`.  
-Mise en œuvre des notions de **pré/post-conditions**, **invariants**, et d’une **classe interne `Element`**.  
-Tests unitaires complets avec `TestListeChainee.java`.
+This repository contains all the **practical assignments (TPs)** for the **R3.02 – Data Structures** module, supervised by **J.-F. Kamp**.  
+The goal is to apply theoretical concepts through **Java 17** implementations of fundamental data structures (lists, hash tables, collections, binary trees) while respecting **design contracts**, **generics**, and **JUnit4 unit testing**.
 
 ---
 
-### **TP2 – Table de Hachage**
-Implémentation d’une **table de hachage simplifiée** à partir d’une interface `Table.java`.  
-Gestion des **collisions par adressage linéaire circulaire**.  
-Introduction d’une **classe interne privée `Tuple`**.  
-Tests **JUnit4** et vérification des contrats.
+## 🧩 Repository Content
+
+### **TP1 – Linked List**
+Implementation of a **doubly linked list with a sentinel node**.  
+Creation of an interface `Liste.java` and a class `ListeChainee.java`.  
+Includes **pre/post-conditions**, **invariants**, and an **inner class `Element`**.  
+Fully tested with `TestListeChainee.java`.
 
 ---
 
-### **TP3 – Classe Bag (Sac) et généricité**
-Développement d’une **collection générique** `Sac<E>` conforme à l’API Java (`java.util.Collection`).  
-Implémentation de la **classe interne `Element`** et d’un **itérateur interne `Itr`** gérant la synchronisation via un compteur de modifications.  
-Exploration de la **généricité**, des **itérateurs multiples** et de la **compatibilité avec `AbstractCollection`**.  
-Tests approfondis et validation des comportements de l’API Java.
+### **TP2 – Hash Table**
+Implementation of a simplified **hash table** based on the interface `Table.java`.  
+Handles **collisions via circular linear probing**.  
+Introduces a **private inner class `Tuple`**.  
+Includes **JUnit4 tests** and contract verification.
 
 ---
 
-### **TP4 – Arbre binaire ordonné et généricité**
-Conception d’un **arbre binaire générique** `ArbreBinaire<E, T>` implémentant l’interface `Table<E, T>`.  
-Implémentation de la **classe interne `Noeud`**, des **algorithmes d’insertion, recherche, suppression, clonage**, et de l’**affichage textuel/graphique**.  
-Vérification de la **hauteur**, de l’**équilibrage (AVL)** et respect des principes de **récursivité**.  
-Tests unitaires avec `TestArbreBinaire.java`.
+### **TP3 – Bag Class and Generics**
+Development of a **generic collection** `Sac<E>` compliant with the Java API (`java.util.Collection`).  
+Implements an **inner class `Element`** and an **inner iterator class `Itr`** handling synchronization via a modification counter.  
+Explores **generics**, **multiple iterators**, and **compatibility with `AbstractCollection`**.  
+Includes comprehensive tests and API behavior validation.
 
 ---
 
-## 🧠 Objectifs pédagogiques
-- Comprendre et implanter des **structures de données fondamentales**.  
-- Appliquer les notions de **contrat, généricité, encapsulation, classes internes et itérateurs**.  
-- Produire un code **propre, documenté (JavaDoc)**, **testé (JUnit4)** et **compilable sous Java 17**.  
-- Développer la rigueur du **cycle conception → implémentation → test → validation**.
+### **TP4 – Ordered Binary Tree and Generics**
+Design of a **generic binary tree** `ArbreBinaire<E, T>` implementing the interface `Table<E, T>`.  
+Implements an **inner class `Noeud`** with algorithms for **insertion, search, deletion, cloning**, and **textual/graphical display**.  
+Checks **height**, **balance (AVL)**, and **recursion principles**.  
+Unit tested with `TestArbreBinaire.java`.
 
 ---
 
-## 📅 Chronologie du cours
+## 🧠 Learning Objectives
+- Understand and implement **fundamental data structures**.  
+- Apply **contracts, generics, encapsulation, inner classes, and iterators**.  
+- Produce **clean, documented (JavaDoc)**, **tested (JUnit4)**, and **Java 17–compliant** code.  
+- Develop rigorous skills in the **design → implementation → testing → validation** process.
 
-| Semaine | Sujet | TP associé | Rendu |
+---
+
+## 📅 Course Timeline
+
+| Week | Topic | Associated TP | Due Date |
 |:--:|:--|:--|:--|
-| 36 | Cours 1 – Plan, outils, évaluations | — | — |
-| 37 | Cours 2 – Liste chaînée | TP1 Liste chaînée | 13/09/2025 |
-| 38 | Cours 3 – Table de hachage | TP2 Table de hachage | 20/09/2025 |
-| 39 | Cours 4 – Types génériques | TP3 Classe Bag | 27/09/2025 |
-| 40–41 | Cours 5–6 – Structures en arbre | TP4 Arbre binaire | 11/10/2025 |
+| 36 | Course 1 – Overview, tools, grading | — | — |
+| 37 | Course 2 – Linked List | TP1 Linked List | 13/09/2025 |
+| 38 | Course 3 – Hash Table | TP2 Hash Table | 20/09/2025 |
+| 39 | Course 4 – Generics | TP3 Bag Class | 27/09/2025 |
+| 40–41 | Courses 5–6 – Tree Structures | TP4 Binary Tree | 11/10/2025 |
